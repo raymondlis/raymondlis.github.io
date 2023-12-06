@@ -1,0 +1,73 @@
+body{
+    background-color:hsl(57, 50%, 91%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 0.1rem solid hsl(130, 80%, 22%);
+    padding: 0.5rem;
+}
+
+main{
+    display: flex;
+    align-content:space-between;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    border-top: 0.05rem solid hsl(130, 80%, 22%);
+    border-bottom: 0.05rem solid hsl(130, 80%, 22%);
+    padding: 4.1rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    border-top: 0.1rem solid hsl(130, 80%, 22%);
+    padding: 0.5rem;
+}
+
+
+
+
+.subtitulo{
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.botao_post{
+    flex-direction: row;
+    border: 0rem  solid hsl(130, 80%, 22%);
+    align-items: center;
+    justify-content:space-around;
+}
+.camera{
+    flex-direction: row;
+    border: 0rem;
+    border-bottom:0.1rem solid hsl(130, 80%, 22%);
+    justify-content: center;
+}
+.post{
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;   
+    border-bottom: 0rem;
+}
